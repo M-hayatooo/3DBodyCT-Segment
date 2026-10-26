@@ -1,0 +1,68 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Training artifacts, predictions, and patient-level reports
+/weights/
+/crop_visualizations/
+/outputs/
+/results/
+/runs/
+/logs/
+*.log
+
+# Local datasets and medical images
+/data/
+/datasets/
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Notebooks may contain patient information and embedded images.
+# Review and clear outputs before explicitly including a notebook.
+*.ipynb
+.ipynb_checkpoints/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+/.vscode/
+/.idea/
+*.pem
+*.key
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
