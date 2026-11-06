@@ -2,7 +2,9 @@
 
 CT body composition segmentation using PyTorch. A 2D U-Net takes three adjacent axial CT slices as input and predicts the segmentation of the center slice (a 2.5D approach).
 
-This guide describes how to train a model on your own data and apply the trained model to unseen CT volumes. Datasets and pretrained weights are not included.
+This guide describes how to train a model on your own data and apply the trained model to unseen CT volumes. Datasets and pretrained weights are not included in this repository.
+
+The model weights evaluated in the paper are available on [Box](https://corporate-m.box.com/s/54edjoeq3gt51nakuk1njq4u3qa77y5a).
 
 ## Setup
 
